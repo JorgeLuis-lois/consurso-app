@@ -62,10 +62,10 @@
                         <a href="index.html" class="nav-item nav-link active">Home</a>
                         @else
                         <a href="{{ route('login') }}" class="nav-item nav-link active">Log in</a>                        
-                        <a href="about.html" class="nav-item nav-link">¿Cómo participar?</a>
-                        <a href="service.html" class="nav-item nav-link">¿QUIÉNES PUEDEN PARTICIPAR?</a>
-                        <a href="project.html" class="nav-item nav-link">info</a>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <a href="#mu-participar-overview" class="nav-item nav-link">Como participar</a>
+                        <a href="#mu-pueden-participar-overview" class="nav-item nav-link">Quiénes pueden participar</a>
+                        <a href="#mu-informacion-overview" class="nav-item nav-link">Información</a>
+                        <a href="#mu-premios-overview" class="nav-item nav-link">Premios</a>                        
                         @endauth
                     @endif    
                     </div>
@@ -112,7 +112,7 @@
 
 
         <!-- About Start -->
-        <div class="container-xxl py-5">
+        <div class="container-xxl py-5" id='mu-participar-overview'>
             <div class="container px-lg-5">
                 <div class="row g-5">
                     <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
@@ -141,7 +141,7 @@
         <!-- About End -->
 
         <!-- About Start -->
-        <div class="container-xxl py-5">
+        <div class="container-xxl py-5" id ="mu-pueden-participar-overview">
             <div class="container px-lg-5">
                 <div class="row g-5">
                     <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
@@ -163,7 +163,7 @@
         </div>
         <!-- About End -->
         <!-- Service Start -->
-        <div class="container-xxl py-5">
+        <div class="container-xxl py-5" id="mu-informacion-overview">
             <div class="container px-lg-5">
                 <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
                     <h6 class="position-relative d-inline text-primary ps-4">Información</h6>
@@ -188,8 +188,8 @@
         <!-- Service End -->
 
 
-        <!-- Portfolio Start -->
-        <div class="container-xxl py-5">
+        <!-- Premios Start -->
+        <div class="container-xxl py-5" id="mu-premios-overview">
             <div class="container px-lg-5">
                 <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
                     <h6 class="position-relative d-inline text-primary ps-4">Sorteo</h6>
@@ -244,7 +244,7 @@
                 </div>
             </div>
         </div>
-        <!-- Portfolio End -->
+        <!-- Premios End -->
 
         <!-- Footer Start -->
         <div class="container-fluid bg-primary text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
