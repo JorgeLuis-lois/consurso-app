@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
-    --primary: #2124B1;
-    --secondary: #4777F5;
+    --primary: #17c8e7;
+    --secondary: #237386;
     --light: #F7FAFF;
     --dark: #1D1D27;
 }
@@ -198,22 +198,6 @@ h6,
     background-repeat: no-repeat;
 }
 
-.hero-header-inline {
-    background:
-        url(../img/bg-dot.png),
-        url(../img/bg-dot.png),
-        url(../img/bg-round.png),
-        url(../img/bg-tree.png),
-        url(../img/bg-bottom-hero-inline.png);
-    background-position:
-        10px 10px,
-        bottom 190px right 10px,
-        left 55% top -1px,
-        left 45% bottom -1px,
-        center bottom -1px;
-    background-repeat: no-repeat;
-}
-
 
 /*** Section Title ***/
 .section-title::before {
@@ -274,7 +258,7 @@ h6,
 }
 
 .service-item:hover {
-    background: var(--primary);
+    background: var(--secondary);
 }
 
 .service-item .service-icon {
@@ -427,7 +411,7 @@ h6,
 #portfolio-flters .btn:hover,
 #portfolio-flters .btn.active {
     color: var(--light);
-    background: var(--primary);
+    background: var(--secondary);
 }
 
 .portfolio-overlay {
@@ -538,4 +522,9 @@ h6,
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+.bg-portada{
+    background-color: #108291bb;
+
 }

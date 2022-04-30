@@ -15,10 +15,8 @@
     <link href="{{ asset('img/favicon.ico') }}" rel="icon">
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
-
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple|3d-float">
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
@@ -26,7 +24,7 @@
     <!-- Libraries Stylesheet -->
     <link href="{{ asset('lib/animate/animate.min.css') }}" rel="stylesheet">
     <link href="{{ asset('lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('lib/lightbox/css/lightbox.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('lib/lightbox/css/lightbox.css') }}" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
@@ -50,7 +48,7 @@
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
-                    <h1 class="m-0"><i class="fa fa-search me-2"></i>Feria<span class="fs-5"> de Conocimientos</span></h1>
+                    <h1 class="m-0"><i class="fa fa-search me-2"></i>Feria<span class=""> de Conocimientos</span></h1>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
@@ -64,7 +62,7 @@
                         <a href="{{ route('login') }}" class="nav-item nav-link active">Log in</a>                        
                         <a href="#mu-participar-overview" class="nav-item nav-link">Como participar</a>
                         <a href="#mu-pueden-participar-overview" class="nav-item nav-link">Quiénes pueden participar</a>
-                        <a href="#mu-informacion-overview" class="nav-item nav-link">Información</a>
+                        <a href="#mu-informacion-overview" class="nav-item nav-link">Temas</a>
                         <a href="#mu-premios-overview" class="nav-item nav-link">Premios</a>                        
                         @endauth
                     @endif    
@@ -76,7 +74,7 @@
 
         <!-- Hero -->
         <div class="container-xxl position-relative p-0">
-            <div class="container-xxl py-5 bg-primary hero-header mb-5">
+            <div class="container-xxl py-5 hero-header mb-5 bg-portada">
                 <div class="container my-5 py-5 px-lg-5">
                     <div class="row g-5 py-5">
                         <div class="col-lg-6 text-center text-lg-start">
@@ -85,7 +83,7 @@
                             <a href="{{ route('login') }}" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">Paticipar</a>
                         </div>
                         <div class="col-lg-6 text-center text-lg-start">
-                            <img class="img-fluid" src="{{ asset('img/hero.png') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('img/portada.png') }}" alt="">
                         </div>
                     </div>
                 </div>
@@ -247,7 +245,7 @@
         <!-- Premios End -->
 
         <!-- Footer Start -->
-        <div class="container-fluid bg-primary text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container-fluid bg-portada text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
             <div class="container px-lg-5">
                 <div class="copyright">
                     <div class="row">
